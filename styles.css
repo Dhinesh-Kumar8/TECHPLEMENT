@@ -1,24 +1,16 @@
-/* * {
-    border: 1px solid black;
-} */
-
 body {
     color: whitesmoke;
-    background-color: #03386a;
+    background-color: #2e036a;
 }
 
 header {
     text-align: center;
-    color: #03386a;
+    color: #ffffff;
+    font-weight: 500;
 }
-
-hr {
-    color: whitesmoke;
-}
-
 aside {
     background-color: #044f97;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 1px solid #023362;
 }
 .jumbotron {
@@ -27,17 +19,18 @@ aside {
 }
 
 .table {
-    width: 100%;
+    width: 80%;
 }
 .table th {
     white-space: nowrap;
 }
 .table td {
-    width: 75%;
+    width: 80%;
+    height: auto;
 }
 
 .container {
-    margin: 2rem auto;
+    margin: 3rem auto;
 }
 .card {
     display: inline-block;
